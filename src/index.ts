@@ -13,7 +13,7 @@ console.log('initializing');
 
   console.log('starting server...\n');
   (await server())
-  .listen().then(({ url }) => {
+  .listen(process.env.PORT || 4000).then(({ url }) => {
     console.log(`🚀  Server ready at ${url}`);
   })
 
