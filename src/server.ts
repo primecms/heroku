@@ -66,7 +66,7 @@ export const server = async () => {
     return acc;
   }, {});
 
-  function fromBufferContentEntry(contentTypeId: number, id: number): Promise<ContentEntry> {
+  function fromBufferContentEntry(contentTypeId: string, id: number): Promise<ContentEntry> {
     clearTimeout(contentTypeTimouts.get(contentTypeId));
     return new Promise((resolve: Function) => {
       if (!contentTypeBuffers.has(contentTypeId)) {

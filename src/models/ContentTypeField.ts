@@ -1,9 +1,16 @@
-import { Model, Column, Table, BelongsTo, ForeignKey } from 'sequelize-typescript';
+import { Model, Column, Table, BelongsTo, ForeignKey, PrimaryKey, DataType } from 'sequelize-typescript';
 import { ContentType } from './ContentType';
 import { JSON } from 'sequelize';
 
 @Table
 export class ContentTypeField extends Model<ContentTypeField> {
+
+  @PrimaryKey
+  @Column({
+    type: DataType.UUID,
+    defaultValue: DataType.UUIDV4
+  })
+  id: string;
 
   @Column
   name: string;
@@ -18,8 +25,8 @@ export class ContentTypeField extends Model<ContentTypeField> {
   group: string;
 
   @ForeignKey(() => ContentType)
-  @Column
-  contentTypeId: number;
+  @Column(DataType.UUID)
+  contentTypeId;
 
   @BelongsTo(() => ContentType)
   contentType: ContentType;

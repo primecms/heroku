@@ -1,6 +1,5 @@
-import { Model, Column, Table, Scopes, BelongsTo, ForeignKey } from 'sequelize-typescript';
+import { Model, Column, Table, Scopes, BelongsTo, PrimaryKey, ForeignKey, DataType } from 'sequelize-typescript';
 import { ContentType } from './ContentType';
-import { JSON } from 'sequelize';
 
 @Scopes({
   contentType: {
@@ -13,14 +12,21 @@ import { JSON } from 'sequelize';
 @Table
 export class ContentEntry extends Model<ContentEntry> {
 
-  @Column
+  @PrimaryKey
+  @Column({
+    type: DataType.UUID,
+    defaultValue: DataType.UUIDV4
+  })
+  id;
+
+  @Column(DataType.UUID)
   @ForeignKey(() => ContentType)
-  contentTypeId: number;
+  contentTypeId;
 
   @Column
   language: string;
 
-  @Column(JSON)
+  @Column(DataType.JSON)
   data;
 
   @BelongsTo(() => ContentType)
