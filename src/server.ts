@@ -1,5 +1,5 @@
 import { ApolloServer } from 'apollo-server';
-import { GraphQLSchema, GraphQLObjectType, GraphQLInputObjectType, GraphQLString, GraphQLInt, GraphQLList, GraphQLEnumType, GraphQLID } from 'graphql';
+import { GraphQLSchema, GraphQLObjectType, GraphQLInputObjectType, GraphQLString, GraphQLInt, GraphQLFloat, GraphQLList, GraphQLEnumType, GraphQLID, printSchema } from 'graphql';
 
 import { sequelize } from './sequelize';
 import { ContentType } from './models/ContentType';
@@ -23,11 +23,11 @@ export const server = async () => {
   const whereNumberOp = new GraphQLInputObjectType({
     name: 'whereNumberOp',
     fields: {
-      eq: { type: GraphQLInt },
-      gt: { type: GraphQLInt },
-      gte: { type: GraphQLInt },
-      lt: { type: GraphQLInt },
-      lte: { type: GraphQLInt },
+      eq: { type: GraphQLFloat },
+      gt: { type: GraphQLFloat },
+      gte: { type: GraphQLFloat },
+      lt: { type: GraphQLFloat },
+      lte: { type: GraphQLFloat },
     }
   });
 
@@ -96,6 +96,7 @@ export const server = async () => {
     });
   }
 
+  const inputs = {} as any;
   const fields = {} as any;
   const contentTypes = await ContentType.findAll();
   await Promise.all(
@@ -186,8 +187,6 @@ export const server = async () => {
         }),
       });
 
-      sequelize;
-
       fields[`all${type.name}`] = {
         type: new GraphQLList(gqlType),
         args: {
@@ -231,15 +230,121 @@ export const server = async () => {
           }));
         }
       };
-    })
+
+      inputs[`create${type.name}`] = {
+        type: gqlType,
+        args: {
+          input: {
+            type: new GraphQLInputObjectType({
+              name: `Create${type.name}`,
+              fields: contentTypeFields.reduce((acc, field: ContentTypeField) => {
+                if (field.type === 'string') {
+                  acc[field.name] = {
+                    type: GraphQLString,
+                  };
+                }
+                return acc;
+              }, {}),
+            }),
+          },
+        },
+        async resolve(root, args, context, info) {
+          const entry = await ContentEntry.create({
+            contentTypeId: type.id,
+            data: args.input,
+          });
+
+          if (entry) {
+            return {
+              id: entry.id,
+              ...entry.data
+            };
+          }
+
+          return null;
+        },
+      };
+
+      inputs[`update${type.name}`] = {
+        type: gqlType,
+        args: {
+          id: { type: GraphQLID },
+          input: {
+            type: new GraphQLInputObjectType({
+              name: `Update${type.name}`,
+              fields: contentTypeFields.reduce((acc, field: ContentTypeField) => {
+                if (field.type === 'string') {
+                  acc[field.name] = {
+                    type: GraphQLString,
+                  };
+                }
+                return acc;
+              }, {}),
+            }),
+          },
+        },
+        async resolve(root, args, context, info) {
+          const entry = await ContentEntry.find({
+            where: {
+              contentTypeId: type.id,
+              id: args.id,
+            },
+          });
+
+          if (entry) {
+            entry.update({
+              data: args.input,
+            });
+
+            return {
+              id: entry.id,
+              ...entry.data
+            };
+          }
+
+          return null;
+        },
+      };
+
+      inputs[`delete${type.name}`] = {
+        type: GraphQLInt,
+        args: {
+          id: { type: GraphQLID },
+        },
+        async resolve(root, args, context, info) {
+          const entry = await ContentEntry.find({
+            where: {
+              contentTypeId: type.id,
+              id: args.id,
+            },
+          });
+
+          if (entry) {
+            entry.destroy();
+            return 1;
+          }
+
+          return 0;
+        },
+      };
+
+    }),
   );
 
-  return new ApolloServer({
-    schema: new GraphQLSchema({
-      query: new GraphQLObjectType({
-        name: 'Query',
-        fields,
-      }),
+  const schema = new GraphQLSchema({
+    query: new GraphQLObjectType({
+      name: 'Query',
+      fields,
     }),
+    mutation: new GraphQLObjectType({
+      name: 'Mutation',
+      fields: inputs,
+    }),
+  });
+
+  console.log(printSchema(schema));
+
+  return new ApolloServer({
+    schema,
   });
 }
