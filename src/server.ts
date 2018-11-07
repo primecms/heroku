@@ -345,6 +345,7 @@ export const server = async () => {
   console.log(printSchema(schema));
 
   return new ApolloServer({
+    introspection: true,
     schema,
   });
 }
