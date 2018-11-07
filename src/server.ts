@@ -1,14 +1,70 @@
 import { ApolloServer } from 'apollo-server';
-import { GraphQLSchema, GraphQLObjectType, GraphQLString, GraphQLList, GraphQLID } from 'graphql';
+import { GraphQLSchema, GraphQLObjectType, GraphQLInputObjectType, GraphQLString, GraphQLInt, GraphQLList, GraphQLEnumType, GraphQLID } from 'graphql';
 
+import { sequelize } from './sequelize';
 import { ContentType } from './models/ContentType';
 import { ContentEntry } from './models/ContentEntry';
 import { ContentTypeField } from './models/ContentTypeField';
+import { IFindOptions, Sequelize } from 'sequelize-typescript';
 
 export const server = async () => {
 
   const contentTypeBuffers = new Map();
   const contentTypeTimouts = new Map();
+
+  const whereStringOp = new GraphQLInputObjectType({
+    name: 'WhereStringOp',
+    fields: {
+      neq: { type: GraphQLString },
+      eq: { type: GraphQLString },
+    }
+  });
+
+  const whereNumberOp = new GraphQLInputObjectType({
+    name: 'whereNumberOp',
+    fields: {
+      eq: { type: GraphQLInt },
+      gt: { type: GraphQLInt },
+      gte: { type: GraphQLInt },
+      lt: { type: GraphQLInt },
+      lte: { type: GraphQLInt },
+    }
+  });
+
+  const convert = (obj) => (Object as any).entries(obj).reduce((acc, [key, val]) => {
+    if (key === 'OR') {
+      if (val instanceof Array) {
+        acc[Sequelize.Op.or] = val.map(convert);
+      } else {
+        acc[Sequelize.Op.or] = convert(val);
+      }
+    } else if (key === 'AND') {
+      if (val instanceof Array) {
+        acc[Sequelize.Op.and] = val.map(convert);
+      } else {
+        acc[Sequelize.Op.and] = convert(val);
+      }
+    } else {
+      const allowedKeys = ['eq', 'ne', 'gt', 'gte', 'lt', 'lte'];
+      const theVal = (Object as any).entries(val).reduce((acc, [key, val]) => {
+        if (allowedKeys.indexOf(key) >= 0) {
+          acc[Sequelize.Op[key]] = val;
+        } else {
+          acc[key] = val;
+        }
+        return acc;
+      }, {});
+
+      acc.data = {
+        ...(acc.data || {}),
+        [key]: {
+          ...((acc.data && acc.data[key]) || {}),
+          ...theVal,
+        },
+      };
+    }
+    return acc;
+  }, {});
 
   function fromBufferContentEntry(contentTypeId: number, id: number): Promise<ContentEntry> {
     clearTimeout(contentTypeTimouts.get(contentTypeId));
@@ -101,14 +157,74 @@ export const server = async () => {
         },
       };
 
+      // Sort By Type
+      const sortByType = new GraphQLEnumType({
+        name: `SortBy_${type.name}`,
+        values: contentTypeFields.reduce((acc, field: ContentTypeField) => {
+          acc[`${field.name}_ASC`] = { value: [field.name, 'ASC'] };
+          acc[`${field.name}_DESC`] = { value: [field.name, 'DESC'] };
+          return acc;
+        }, {}),
+      });
+
+      const whereOpTypesFields = contentTypeFields.reduce((acc, field: ContentTypeField) => {
+        if (field.type === 'string') {
+          acc[field.name] = { type: whereStringOp };
+        }
+        if (field.type === 'number') {
+          acc[field.name] = { type: whereNumberOp };
+        }
+        return acc;
+      }, {});
+
+      const whereType = new GraphQLInputObjectType({
+        name: `Where_${type.name}`,
+        fields: () => ({
+          ...whereOpTypesFields,
+          OR: { type: new GraphQLList(whereType) },
+          AND: { type: new GraphQLList(whereType) },
+        }),
+      });
+
+      sequelize;
+
       fields[`all${type.name}`] = {
         type: new GraphQLList(gqlType),
+        args: {
+          sortBy: { type: sortByType },
+          where: { type: whereType },
+          first: { type: GraphQLInt },
+          skip: { type: GraphQLInt },
+        },
         async resolve(root, args, context, info) {
-          const entries = await ContentEntry.findAll({
-            where: {
+          const findAllOptions: IFindOptions<ContentEntry> = {};
+
+          if (args.sortBy) {
+            const [fieldName, sortOrder] = args.sortBy;
+            findAllOptions.order = [
+              [sequelize.json(`data.${fieldName}`), sortOrder],
+            ];
+          }
+
+          if (args.first) {
+            if (args.skip) {
+              findAllOptions.offset = args.skip;
+            }
+            findAllOptions.limit = args.first;
+          }
+
+          if (args.where) {
+            findAllOptions.where = convert(args.where);
+          }
+
+          findAllOptions.where = {
+            [Sequelize.Op.and]: [{
               contentTypeId: type.id,
-            },
-          });
+            }, findAllOptions.where],
+          };
+
+          const entries = await ContentEntry.findAll(findAllOptions);
+
           return entries.map(entry => ({
             id: entry.id,
             ...entry.data,

@@ -6,5 +6,5 @@ export const sequelize = new Sequelize({
   username: 'birkir',
   password: '',
   modelPaths: [`${__dirname}/models`],
-  logging: false,
+  logging: true,
 });

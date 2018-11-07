@@ -9,7 +9,13 @@ export class ContentTypeField extends Model<ContentTypeField> {
   name: string;
 
   @Column
+  title: string;
+
+  @Column
   type: string;
+
+  @Column
+  group: string;
 
   @ForeignKey(() => ContentType)
   @Column
@@ -21,3 +27,19 @@ export class ContentTypeField extends Model<ContentTypeField> {
   @Column(JSON)
   options;
 }
+
+// UID: String
+// Title: { restrict: [h1,h2,h3,h4,h5,h6] }
+// RichText: String
+// Image
+// Document
+// Documents
+// Link: String
+// Date: Date
+// Timestamp: Date
+// Color: String
+// Number: Number
+// Select - { values: ['a', 'b'], default: 'none', placeholder: 'none' }
+// GeoPoint: [number, number];
+// Embed: String
+// Group: ContentTypeField[]
