@@ -1,4 +1,5 @@
 {
+  "coreUrl": "https://prime-backend.herokuapp.com",
   "fields": [
     "@primecms/field-string",
     "@primecms/field-document",
