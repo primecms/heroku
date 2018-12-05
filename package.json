@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/birkir/prime-backend#readme",
   "dependencies": {
-    "@primecms/core": "0.0.19",
-    "@primecms/ui": "0.0.19"
+    "@primecms/core": "0.0.20",
+    "@primecms/ui": "0.0.20"
   }
 }
