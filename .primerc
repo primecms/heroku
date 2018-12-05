@@ -1,6 +1,8 @@
 {
   "coreUrl": "https://prime-backend.herokuapp.com",
   "fields": [
+    "@primecms/field-asset",
+    "@primecms/field-datetime",
     "@primecms/field-string",
     "@primecms/field-document",
     "@primecms/field-group",
