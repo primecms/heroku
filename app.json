@@ -2,7 +2,7 @@
   "name": "Prime CMS",
   "description": "A barebone prime installation",
   "repository": "https://github.com/primecms/heroku",
-  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "logo": "https://raw.githubusercontent.com/birkir/prime/master/docs/_assets/prime-square.png",
   "keywords": [
     "node",
     "express",
@@ -10,8 +10,7 @@
     "graphql"
   ],
   "addons": [
-    "heroku-postgresql",
-    "cloudinary"
+    "heroku-postgresql"
   ],
   "env": {
     "SESSION_SECRET": {
