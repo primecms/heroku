@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "primecms",
+    "heroku-postbuild": "node node_modules/@primecms/core/lib/seed.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/primecms/heroku.git"
   },
-  "author": "",
+  "author": "Birkir Gudjonsson <birkir.gudjonsson@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/primecms/heroku/issues"
