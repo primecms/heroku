@@ -1,5 +1,5 @@
 {
-  "name": "prime-backend",
+  "name": "primecms-heroku",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/birkir/prime-backend.git"
+    "url": "git+https://github.com/primecms/heroku.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/birkir/prime-backend/issues"
+    "url": "https://github.com/primecms/heroku/issues"
   },
-  "homepage": "https://github.com/birkir/prime-backend#readme",
+  "homepage": "https://github.com/primecms/heroku",
   "dependencies": {
     "@primecms/core": "0.0.20",
     "@primecms/ui": "0.0.20"
