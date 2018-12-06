@@ -17,6 +17,10 @@
     "SESSION_SECRET": {
       "description": "Cookie and JWT encryption token",
       "generator": "secret"
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Enter the app name you picked above",
+      "required": true
     }
   }
 }
