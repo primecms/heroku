@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "primecms",
-    "heroku-postbuild": "node node_modules/@primecms/core/lib/migrations/init.js --yes && node node_modules/@primecms/core/lib/migrations/seed.js",
+    "heroku-postbuild": "node node_modules/@primecms/core/lib/migrations/init.js --yes",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/primecms/heroku",
   "dependencies": {
-    "@primecms/core": "0.0.24",
-    "@primecms/ui": "0.0.24"
+    "@primecms/core": "0.1.0",
+    "@primecms/ui": "0.1.0"
   }
 }
