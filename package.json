@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "primecms",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/primecms/heroku",
   "dependencies": {
     "@primecms/core": "0.1.5",
-    "@primecms/ui": "0.1.5"
+    "@primecms/ui": "0.1.5",
+    "newrelic": "^4.12.0"
   }
 }
