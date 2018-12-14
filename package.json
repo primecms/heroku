@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/primecms/heroku",
   "dependencies": {
-    "@primecms/core": "0.1.7",
+    "@primecms/core": "0.1.8",
     "@primecms/ui": "0.1.7",
     "@sentry/node": "^4.4.1",
     "newrelic": "^4.12.0"
