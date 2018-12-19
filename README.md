@@ -5,5 +5,6 @@
 ## Installation
 
 1. Hit that button and your good to go.
-2. Remove heroku-postinstall script in package.json
-3. Install cloudinary addon (optional)
+2. Install cloudinary addon (optional)
+3. Install Sentry error tracking (optional)
+4. Install Newrelic monitoring (optional)
