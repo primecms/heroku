@@ -403,10 +403,10 @@
     lodash "^4.17.11"
     react "^16.8.0-alpha.1"
 
-"@primecms/ui@0.3.0-alpha.1":
-  version "0.3.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@primecms/ui/-/ui-0.3.0-alpha.1.tgz#56a05499c1c786eb04378c2c9ed3ddf355ce75b8"
-  integrity sha512-X6+a+ukn4RVGSgejJXxYZJaMhVhxwo5A5bZhgkIRBtk+3kpvTIczfz9gBzoXwfDUbiCg0UrOrv9qSTTrsiJJ5g==
+"@primecms/ui@0.3.0-alpha.5":
+  version "0.3.0-alpha.5"
+  resolved "https://registry.yarnpkg.com/@primecms/ui/-/ui-0.3.0-alpha.5.tgz#3ab6b17c9f09c2ee3b319d9b9608a3ce60bb55c3"
+  integrity sha512-noldhSi9Tj9VGoIu41Im6yHYn9Yn2ZRZdy57Omvygd/CgH/uOpbrDIsH2GhSDeXLiwdN/hQRK4i4bfupc6yObQ==
   dependencies:
     apollo-link-context "^1.0.14"
 
