@@ -232,10 +232,10 @@
   dependencies:
     methods "^1.1.2"
 
-"@primecms/core@0.3.0-alpha.1":
-  version "0.3.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@primecms/core/-/core-0.3.0-alpha.1.tgz#1258325ca8132b627ca02827c1f8d48e07ba61ac"
-  integrity sha512-fjMZkFRDoX/SuF5azoQc/ImSZaHiURHFQnz1jlmP5yibOX7YWXOhZb4CzYRxbFbgABTYwmdzkiacGkyBoR87rA==
+"@primecms/core@0.3.0-alpha.3":
+  version "0.3.0-alpha.3"
+  resolved "https://registry.yarnpkg.com/@primecms/core/-/core-0.3.0-alpha.3.tgz#9d5f3afb73e09af48747c7764d87ccc527d231d4"
+  integrity sha512-PB26iJt+kr/uL/Yp84R995+r9JHDhS346qTQpPodKSxFWoHeya7gu9wET2tZRK8hz53uajRFk9KYPUJpaB+usQ==
   dependencies:
     "@accounts/database-manager" "0.9.3"
     "@accounts/graphql-api" "0.9.3"
@@ -721,11 +721,6 @@ ajv@^6.5.5:
     fast-json-stable-stringify "^2.0.0"
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
-
-ansi-regex@*:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-4.0.0.tgz#70de791edf021404c3fd615aa89118ae0432e5a9"
-  integrity sha512-iB5Dda8t/UqpPI/IjsejXu5jOGDrzn41wJyljwPH65VCIbk6+1BzFIMJGFwTNrYXT1CrD+B4l19U7awiQ8rk7w==
 
 ansi-regex@^2.0.0:
   version "2.1.1"
@@ -2919,7 +2914,7 @@ import-fresh@^2.0.0:
     caller-path "^2.0.0"
     resolve-from "^3.0.0"
 
-imurmurhash@*, imurmurhash@^0.1.4:
+imurmurhash@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/imurmurhash/-/imurmurhash-0.1.4.tgz#9218b9b2b928a238b13dc4fb6b6d576f231453ea"
   integrity sha1-khi5srkoojixPcT7a21XbyMUU+o=
