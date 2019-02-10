@@ -239,10 +239,10 @@
   dependencies:
     methods "^1.1.2"
 
-"@primecms/core@0.3.2-beta.1":
-  version "0.3.2-beta.1"
-  resolved "https://registry.yarnpkg.com/@primecms/core/-/core-0.3.2-beta.1.tgz#626eadda05f29cd6451746735d6ab1f1b08a66a5"
-  integrity sha512-EfKL+2q5Py4IkqB05JAFWfqv01nPso8MOcTadHul9Ztdcn0qEM/IpLsSh8P1SIL8ZwuireBDmOPsZlbldM56/g==
+"@primecms/core@0.3.2-beta.2":
+  version "0.3.2-beta.2"
+  resolved "https://registry.yarnpkg.com/@primecms/core/-/core-0.3.2-beta.2.tgz#e1ae65b20c784f85913be0b922a77e2f53863fbc"
+  integrity sha512-2g5p1Jo8UWuA7uoaC6QsAn2EaLSTMnckjoifgHDdryWGDDtjCK3d/0IRjlW7sdI0+MepDk9G4cHdR5Ht3XY0vA==
   dependencies:
     "@accounts/database-manager" "0.9.3"
     "@accounts/graphql-api" "0.9.3"
@@ -259,7 +259,7 @@
     "@primecms/field-group" "^0.3.2-beta.1"
     "@primecms/field-number" "^0.3.2-beta.1"
     "@primecms/field-select" "^0.3.2-beta.1"
-    "@primecms/field-slice" "^0.3.2-beta.1"
+    "@primecms/field-slice" "^0.3.2-beta.2"
     "@primecms/field-string" "^0.3.2-beta.1"
     apollo-server-express "2.3.3"
     class-validator "0.9.1"
@@ -269,6 +269,7 @@
     dotenv "6.1.0"
     express "4.16.4"
     graphql "^14.1.1"
+    graphql-iso-date "3.6.1"
     graphql-type-json "^0.2.1"
     hashids "1.2.2"
     latest "0.2.0"
@@ -372,10 +373,10 @@
     react "^16.8.0-alpha.1"
     react-dom "^16.8.0-alpha.1"
 
-"@primecms/field-slice@^0.3.2-beta.1":
-  version "0.3.2-beta.1"
-  resolved "https://registry.yarnpkg.com/@primecms/field-slice/-/field-slice-0.3.2-beta.1.tgz#050e1ac7454263e495528578a1e0a4d402607eec"
-  integrity sha512-JxA7ewqeCY/nnNQnFsfIy6RYF7vl2jvCdXIThUpOEUBIo35n4lCRkwesJQXmf+IJzIAoLhocSHmhCiW8n0t+wg==
+"@primecms/field-slice@^0.3.2-beta.2":
+  version "0.3.2-beta.2"
+  resolved "https://registry.yarnpkg.com/@primecms/field-slice/-/field-slice-0.3.2-beta.2.tgz#881add7a9a85e3c312659086d402214c102b743f"
+  integrity sha512-yyzfu1FzF+xRMt7TWV/qRDGy5LxkN6GKqNd+v0U6BWY+T2coIIHf5Zbq0PP70bp+X0TTIAaPUaYKM1JM9zGDlQ==
   dependencies:
     "@primecms/field" "^0.3.2-beta.1"
     antd "^3.13.0"
@@ -2652,7 +2653,7 @@ graphql-extensions@0.5.0:
   dependencies:
     "@apollographql/apollo-tools" "^0.3.0"
 
-graphql-iso-date@^3.6.1:
+graphql-iso-date@3.6.1, graphql-iso-date@^3.6.1:
   version "3.6.1"
   resolved "https://registry.yarnpkg.com/graphql-iso-date/-/graphql-iso-date-3.6.1.tgz#bd2d0dc886e0f954cbbbc496bbf1d480b57ffa96"
   integrity sha512-AwFGIuYMJQXOEAgRlJlFL4H1ncFM8n8XmoVDTNypNOZyQ8LFDG2ppMFlsS862BSTCDcSUfHp8PD3/uJhv7t59Q==
