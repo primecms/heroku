@@ -412,10 +412,10 @@
     lodash "^4.17.11"
     react "^16.8.0-alpha.1"
 
-"@primecms/ui@0.3.2-beta.2":
-  version "0.3.2-beta.2"
-  resolved "https://registry.yarnpkg.com/@primecms/ui/-/ui-0.3.2-beta.2.tgz#3e3fcfac5ec2162945a3ad8ba577faff3a58472d"
-  integrity sha512-q46Vkycc3fT/olapTaXcIktxysYej3PLibLdW5JvCTGcVp/COA1lD/pOI2+hXQ3ZcHGmbkohRNsjRbsEb79V8g==
+"@primecms/ui@0.3.2-beta.3":
+  version "0.3.2-beta.3"
+  resolved "https://registry.yarnpkg.com/@primecms/ui/-/ui-0.3.2-beta.3.tgz#b70b1ed08cd9b57688741d0692c56387b1a04c64"
+  integrity sha512-M3226nz0fd6rIrzzNs3nwUaAIR1kyKz6nr3eZEc+Jr0OGaJ8KFbTpPbsDy0/eRbSEW+QxtdNw58BRA1ox0ps+Q==
   dependencies:
     "@casl/ability" "3.0.0"
     apollo-link-context "^1.0.14"
