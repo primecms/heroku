@@ -239,10 +239,10 @@
   dependencies:
     methods "^1.1.2"
 
-"@primecms/core@0.3.2-beta.2":
-  version "0.3.2-beta.2"
-  resolved "https://registry.yarnpkg.com/@primecms/core/-/core-0.3.2-beta.2.tgz#e1ae65b20c784f85913be0b922a77e2f53863fbc"
-  integrity sha512-2g5p1Jo8UWuA7uoaC6QsAn2EaLSTMnckjoifgHDdryWGDDtjCK3d/0IRjlW7sdI0+MepDk9G4cHdR5Ht3XY0vA==
+"@primecms/core@0.3.2-beta.3":
+  version "0.3.2-beta.3"
+  resolved "https://registry.yarnpkg.com/@primecms/core/-/core-0.3.2-beta.3.tgz#478fd3f44b817bf04173ca60be45f1464bc8e3df"
+  integrity sha512-TRU1+5YZYUEXminqliJjL1RbCTONCi4jqeT2E1pzjnB2rY5yvKqfNT0jbtAOy4vqmtO6163c7xEFmUPDPqboSw==
   dependencies:
     "@accounts/database-manager" "0.9.3"
     "@accounts/graphql-api" "0.9.3"
@@ -259,7 +259,7 @@
     "@primecms/field-group" "^0.3.2-beta.1"
     "@primecms/field-number" "^0.3.2-beta.1"
     "@primecms/field-select" "^0.3.2-beta.1"
-    "@primecms/field-slice" "^0.3.2-beta.2"
+    "@primecms/field-slice" "^0.3.2-beta.3"
     "@primecms/field-string" "^0.3.2-beta.1"
     apollo-server-express "2.3.3"
     class-validator "0.9.1"
@@ -373,10 +373,10 @@
     react "^16.8.0-alpha.1"
     react-dom "^16.8.0-alpha.1"
 
-"@primecms/field-slice@^0.3.2-beta.2":
-  version "0.3.2-beta.2"
-  resolved "https://registry.yarnpkg.com/@primecms/field-slice/-/field-slice-0.3.2-beta.2.tgz#881add7a9a85e3c312659086d402214c102b743f"
-  integrity sha512-yyzfu1FzF+xRMt7TWV/qRDGy5LxkN6GKqNd+v0U6BWY+T2coIIHf5Zbq0PP70bp+X0TTIAaPUaYKM1JM9zGDlQ==
+"@primecms/field-slice@^0.3.2-beta.3":
+  version "0.3.2-beta.3"
+  resolved "https://registry.yarnpkg.com/@primecms/field-slice/-/field-slice-0.3.2-beta.3.tgz#3db393cc99fa630967f1e8a174ff0be627d2839d"
+  integrity sha512-uII5sh5dw2AqwVulZNnYt+qdWIRBn56uASH+OsSk9K0gK6UiUy58SFcGj65fGuGJFCpIX95McSfVxCU8A6tSog==
   dependencies:
     "@primecms/field" "^0.3.2-beta.1"
     antd "^3.13.0"
