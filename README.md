@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://birkir.github.io/prime/"><img alt="Prime" width="330px" src="https://raw.githubusercontent.com/birkir/prime/master/docs/_assets/prime.png" /></a>
+  <a href="https://docs.primecms.app"><img alt="Prime" width="330px" src="https://raw.githubusercontent.com/birkir/prime/master/docs/_assets/prime.png" /></a>
 </p>
 <p align="center"><strong>Open Source GraphQL CMS</strong></p>
 
@@ -11,6 +11,8 @@
 [![license](https://img.shields.io/github/license/birkir/prime.svg)](https://opensource.org/licenses/MIT)
 
 Prime is a standalone, self-hosted, headless CMS with a GraphQL interface powered by TypeScript.
+
+#### [📖 Read Docs](https://docs.primecms.app/)
 
 ## Installation
 
