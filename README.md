@@ -4,7 +4,7 @@
 <p align="center"><strong>Open Source GraphQL CMS</strong></p>
 
 [![npm downloads](https://img.shields.io/npm/dt/@primecms/core.svg)](https://www.npmjs.com/package/@primecms/core)
-[![npm](https://img.shields.io/npm/v/@primecms/core.svg?maxAge=2592001)](https://www.npmjs.com/package/@primecms/core)
+[![npm](https://img.shields.io/npm/v/@primecms/core.svg?maxAge=3600)](https://www.npmjs.com/package/@primecms/core)
 [![codecov](https://codecov.io/gh/birkir/prime/branch/master/graph/badge.svg)](https://codecov.io/gh/birkir/prime)
 [![CircleCI](https://circleci.com/gh/birkir/prime.svg?style=shield)](https://circleci.com/gh/birkir/prime)
 ![last commit](https://img.shields.io/github/last-commit/google/skia.svg)
@@ -16,6 +16,7 @@ Prime is a standalone, self-hosted, headless CMS with a GraphQL interface powere
 
 1. 👉 Click the Heroku button
 2. [📖 Read Docs](https://docs.primecms.app)
+3. [🌟 Head to GitHub](https://github.com/birkir/prime) and give us a star
 
 Optionally add the following (free) supported Heroku addons: [Cloudinary](https://elements.heroku.com/addons/cloudinary), [Sentry](https://elements.heroku.com/addons/sentry) and [Newrelic](https://elements.heroku.com/addons/newrelic).
 
