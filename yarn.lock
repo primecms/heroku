@@ -276,10 +276,10 @@
   dependencies:
     methods "^1.1.2"
 
-"@primecms/core@0.3.3-beta.2":
-  version "0.3.3-beta.2"
-  resolved "https://registry.yarnpkg.com/@primecms/core/-/core-0.3.3-beta.2.tgz#463187e0a2ba3b9a5c9a981f4c65f59f757e8f69"
-  integrity sha512-nBKhfoTxQ11xg4GJG0a/ONgPIK1G0ZgHVmjHcmyY+snIjGacTu21+fic268kuPLWHkqAzBCyNwp4eR3wduXhYg==
+"@primecms/core@0.3.3-beta.3":
+  version "0.3.3-beta.3"
+  resolved "https://registry.yarnpkg.com/@primecms/core/-/core-0.3.3-beta.3.tgz#6d01b303b289f6ee2eb7f96350cad7c63b28cbaa"
+  integrity sha512-6BHwxlroxxFNARN2yV/7QyR+P5i5msNuUiQ3sZvc+fGfqdzylyqCEWcnC1LxUVoV59qLPmfhbN93B7DOg7MKWg==
   dependencies:
     "@accounts/database-manager" "0.11.2"
     "@accounts/graphql-api" "0.11.2"
@@ -290,11 +290,11 @@
     "@graphql-modules/core" "0.4.2"
     "@primecms/field" "^0.3.3-beta.2"
     "@primecms/field-asset" "^0.3.3-beta.2"
-    "@primecms/field-boolean" "^0.3.3-beta.2"
-    "@primecms/field-datetime" "^0.3.3-beta.2"
+    "@primecms/field-boolean" "^0.3.3-beta.3"
+    "@primecms/field-datetime" "^0.3.3-beta.3"
     "@primecms/field-document" "^0.3.3-beta.2"
-    "@primecms/field-group" "^0.3.3-beta.2"
-    "@primecms/field-number" "^0.3.3-beta.2"
+    "@primecms/field-group" "^0.3.3-beta.3"
+    "@primecms/field-number" "^0.3.3-beta.3"
     "@primecms/field-select" "^0.3.3-beta.2"
     "@primecms/field-slice" "^0.3.3-beta.2"
     "@primecms/field-string" "^0.3.3-beta.2"
@@ -338,10 +338,10 @@
     react-dom "^16.8.0-alpha.1"
     react-easy-crop "^1.6.0"
 
-"@primecms/field-boolean@^0.3.3-beta.2":
-  version "0.3.3-beta.2"
-  resolved "https://registry.yarnpkg.com/@primecms/field-boolean/-/field-boolean-0.3.3-beta.2.tgz#81ccc6ad42cbeb3816ebd89afcce0a4ffd92bdde"
-  integrity sha512-fdRNpw/QKuG02qtCJvARDVmPyJMFs/hjWe2mLYDhif0cEh/ek1zLve4PujA7XTM4DebQ1kEPktKwiGZ0IKvqRg==
+"@primecms/field-boolean@^0.3.3-beta.3":
+  version "0.3.3-beta.3"
+  resolved "https://registry.yarnpkg.com/@primecms/field-boolean/-/field-boolean-0.3.3-beta.3.tgz#5f6d65e438ed9bd56c3e03a82ce448e0a63d9abf"
+  integrity sha512-LPJosInCvfp+HsCKYHRJLfEWhHFtWq5tnLbzoMQEyeR+D7z0MxJuL2JRYhlEqQn2IQYXlLTzN6HYBbgICGDnYw==
   dependencies:
     "@primecms/field" "^0.3.3-beta.2"
     antd "^3.13.0"
@@ -350,10 +350,10 @@
     react "^16.8.0-alpha.1"
     react-dom "^16.8.0-alpha.1"
 
-"@primecms/field-datetime@^0.3.3-beta.2":
-  version "0.3.3-beta.2"
-  resolved "https://registry.yarnpkg.com/@primecms/field-datetime/-/field-datetime-0.3.3-beta.2.tgz#ad079f667942af0514d12fa33ea945c000e2c0c7"
-  integrity sha512-+NO777H+jIR8N7p+UYci9DUfZfB2REzUpXeyzNkLcBDaZaVWXk8OucJVGufBtp2tca7eQQLbVnjgguVVWvYoKQ==
+"@primecms/field-datetime@^0.3.3-beta.3":
+  version "0.3.3-beta.3"
+  resolved "https://registry.yarnpkg.com/@primecms/field-datetime/-/field-datetime-0.3.3-beta.3.tgz#5e7a392f82209d404035ef8241154b033dddc834"
+  integrity sha512-c39XptaARMkssQ2hQ/c6qq+5hdQIHWh2rQefA+qmp/aZfrkVxI5RKjOWZGDvijs7JrFTlmGZ+UajAhV3jO1XlQ==
   dependencies:
     "@primecms/field" "^0.3.3-beta.2"
     antd "^3.13.0"
@@ -373,10 +373,10 @@
     react "^16.8.0-alpha.1"
     react-dom "^16.8.0-alpha.1"
 
-"@primecms/field-group@^0.3.3-beta.2":
-  version "0.3.3-beta.2"
-  resolved "https://registry.yarnpkg.com/@primecms/field-group/-/field-group-0.3.3-beta.2.tgz#54abe08129828ec0981c20109526cc869e046e4d"
-  integrity sha512-ildXraWGvBECVlpHgjrhMzS/rnXQXrXxi1B3ApUbLOY6PaguhYOPjX2AO/huenMC1U/iiNo7Sqg1uUzY2QurGQ==
+"@primecms/field-group@^0.3.3-beta.3":
+  version "0.3.3-beta.3"
+  resolved "https://registry.yarnpkg.com/@primecms/field-group/-/field-group-0.3.3-beta.3.tgz#44b235d5a1391f52a0159d5fff4182c7775df11d"
+  integrity sha512-efmM2gRN7y0vO94PaWEB/1BbtrebdOZNhrlUToVqbMIqsDIPC4QIqN4Ns6k5xYwxJGJ5YJSx0IYhYdNtfO8ENA==
   dependencies:
     "@primecms/field" "^0.3.3-beta.2"
     antd "^3.13.0"
@@ -385,10 +385,10 @@
     react "^16.8.0-alpha.1"
     react-dom "^16.8.0-alpha.1"
 
-"@primecms/field-number@^0.3.3-beta.2":
-  version "0.3.3-beta.2"
-  resolved "https://registry.yarnpkg.com/@primecms/field-number/-/field-number-0.3.3-beta.2.tgz#240f36b73bb3acc7c3a0b72245e94fe59b904138"
-  integrity sha512-FRwXJRtglEWn4zBNxgGkfL8dUcnZWIVnDyRQXySK73gRy1V+33Cf+mEPfM6iYpSjIftSHFCOEF/VsmBLeyjBJg==
+"@primecms/field-number@^0.3.3-beta.3":
+  version "0.3.3-beta.3"
+  resolved "https://registry.yarnpkg.com/@primecms/field-number/-/field-number-0.3.3-beta.3.tgz#d6ebe1434cb0c040a437329fc584127eb3b9b90f"
+  integrity sha512-3aSgoPbcxayu+OoW+bkCz+hVo2oi1ClJysqi8MSGE6GDHbVEOcQ2XPXKuO1A0eKbNvCbeNu54OisAh+ZKT3PwQ==
   dependencies:
     "@primecms/field" "^0.3.3-beta.2"
     antd "^3.13.0"
@@ -449,10 +449,10 @@
     lodash "^4.17.11"
     react "^16.8.0-alpha.1"
 
-"@primecms/ui@0.3.3-beta.2":
-  version "0.3.3-beta.2"
-  resolved "https://registry.yarnpkg.com/@primecms/ui/-/ui-0.3.3-beta.2.tgz#4506ccb98a00ca037cd14c38c8b1c67c33587906"
-  integrity sha512-/Ls3pXJwNdHOkoZgMtf7YX0O2jQa/Bxc4+yJ31iQQ6aNSAy3n/s4bZtJygCyLyyVvok6337cu9B7lKsJO4SZqA==
+"@primecms/ui@0.3.3-beta.3":
+  version "0.3.3-beta.3"
+  resolved "https://registry.yarnpkg.com/@primecms/ui/-/ui-0.3.3-beta.3.tgz#41f2b553ee00d13514d202505bbf35b22395a34b"
+  integrity sha512-l3XKO0OADi2A0ipnvbS0oSjcj0MnekeLX3S5sMdZTPiZzVhcIz0Y69lViWeppZkUmcmaC6eW04MZm/HGnljsBA==
 
 "@protobufjs/aspromise@^1.1.1", "@protobufjs/aspromise@^1.1.2":
   version "1.1.2"
