@@ -18,7 +18,7 @@ Prime is a standalone, self-hosted, headless CMS with a GraphQL interface powere
 2. [📖 Read Docs](https://docs.primecms.app)
 3. [🌟 Head to GitHub](https://github.com/birkir/prime) and give us a star
 
-Optionally add the following (free) supported Heroku addons: [Cloudinary](https://elements.heroku.com/addons/cloudinary), [Sentry](https://elements.heroku.com/addons/sentry) and [Newrelic](https://elements.heroku.com/addons/newrelic).
+Optionally add the following (free) supported Heroku addons: [Cloudinary](https://elements.heroku.com/addons/cloudinary), [Mailgun](https://elements.heroku.com/addons/mailgun), [Sentry](https://elements.heroku.com/addons/sentry) and [Newrelic](https://elements.heroku.com/addons/newrelic).
 
 ## Why Prime?
 
