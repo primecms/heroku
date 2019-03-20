@@ -449,10 +449,10 @@
     lodash "^4.17.11"
     react "^16.8.0-alpha.1"
 
-"@primecms/ui@0.3.3-beta.6":
-  version "0.3.3-beta.6"
-  resolved "https://registry.yarnpkg.com/@primecms/ui/-/ui-0.3.3-beta.6.tgz#d35f6aa9db0664cc7a82045750d53575c8e35acb"
-  integrity sha512-KV6dl92+LMXLB1ADAeCqq6LwilELaSocGRCniUxRmWeoEoPK80a9jRHH6TUxU5zjsRZztSPiIIILqVNkvflknQ==
+"@primecms/ui@0.3.3-beta.8":
+  version "0.3.3-beta.8"
+  resolved "https://registry.yarnpkg.com/@primecms/ui/-/ui-0.3.3-beta.8.tgz#a99df8670286bfae5afb0e9e2c0eab58f89009bd"
+  integrity sha512-qui/BJRe21LvFm7UKxuYc25KC/oKg/THM5fY5DH78nwyYFcpoqpJSbDf+90iUHjax+bubVPHCqyCcA0moZ0jCg==
   dependencies:
     antd "3.13.6"
 
