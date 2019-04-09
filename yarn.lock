@@ -80,9 +80,10 @@
     ant-design-palettes "^1.1.3"
     babel-runtime "^6.26.0"
 
-"@ant-design/icons@~1.1.16":
-  version "1.1.16"
-  resolved "https://registry.yarnpkg.com/@ant-design/icons/-/icons-1.1.16.tgz#ac6426216934e3f4bc108f2f48f92ed66789235e"
+"@ant-design/icons@~1.2.0":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@ant-design/icons/-/icons-1.2.1.tgz#8e19301b1433ec67d6bbd0e892782e2ade561ff9"
+  integrity sha512-gQx3nH6m1xvebOWh5xibhzVK02aoqHY7JUXUS4doAidSDRWsj5iwKC8Gq9DemDZ4T+bW6xO7jJZN1UsbvcW7Uw==
 
 "@apollographql/apollo-tools@^0.3.0":
   version "0.3.2"
@@ -192,10 +193,10 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
-"@casl/ability@3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@casl/ability/-/ability-3.0.1.tgz#a8c4f0de4abea1ceb7a13245df11f8e74c626ad6"
-  integrity sha512-cpynEh5qvBVTwQCEa5SuM+4o3BvRW4CgsVz2dlq14B+iw2QhGCH0h6IeXiEEdB2fyRfsCuDyluXZHlriU6hP6g==
+"@casl/ability@3.0.2":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@casl/ability/-/ability-3.0.2.tgz#787e581382836c2da998b9a61ecd334c548b049f"
+  integrity sha512-XBs+ESP9nzeuER1gOVrag/iOXlBXjKd9I80qzzFBC0i4Olsnw4WiDadMoSbulfMNtw6jti640DBN9bPvg9mq9g==
   dependencies:
     sift "^7.0.1"
 
@@ -283,28 +284,28 @@
   dependencies:
     methods "^1.1.2"
 
-"@primecms/core@0.3.3-beta.8":
-  version "0.3.3-beta.8"
-  resolved "https://registry.yarnpkg.com/@primecms/core/-/core-0.3.3-beta.8.tgz#962997c5a9580e671cdfe83d94c5c13e6925624b"
-  integrity sha512-TSMc52JlfhAnEY1DyWe74LTHG3jcY+j/OL7JUcpCAM8o5ZKX1dSIBz6WmnHGQQCNDC/rwqzS1ttPdLPcVg3Yvw==
+"@primecms/core@0.3.3-beta.9":
+  version "0.3.3-beta.9"
+  resolved "https://registry.yarnpkg.com/@primecms/core/-/core-0.3.3-beta.9.tgz#36925e1c58778150d3a3a2e88482c11c531c6732"
+  integrity sha512-+fI/Bqmgvx2qPKYzoe/8R9FQeA8Q6aY0iW6nDOwTnrgWZW5m9R1X1bHeTqTwGSopVE1vCADVXFcFOSAPOnB8xA==
   dependencies:
     "@accounts/database-manager" "0.12.0"
     "@accounts/graphql-api" "0.12.0"
     "@accounts/password" "0.12.0"
     "@accounts/server" "0.12.0"
     "@accounts/typeorm" "0.12.0"
-    "@casl/ability" "3.0.1"
+    "@casl/ability" "3.0.2"
     "@graphql-modules/core" "0.4.2"
-    "@primecms/field" "^0.3.3-beta.6"
-    "@primecms/field-asset" "^0.3.3-beta.6"
-    "@primecms/field-boolean" "^0.3.3-beta.6"
-    "@primecms/field-datetime" "^0.3.3-beta.6"
-    "@primecms/field-document" "^0.3.3-beta.6"
-    "@primecms/field-group" "^0.3.3-beta.6"
-    "@primecms/field-number" "^0.3.3-beta.6"
-    "@primecms/field-select" "^0.3.3-beta.6"
-    "@primecms/field-slice" "^0.3.3-beta.6"
-    "@primecms/field-string" "^0.3.3-beta.8"
+    "@primecms/field" "^0.3.3-beta.9"
+    "@primecms/field-asset" "^0.3.3-beta.9"
+    "@primecms/field-boolean" "^0.3.3-beta.9"
+    "@primecms/field-datetime" "^0.3.3-beta.9"
+    "@primecms/field-document" "^0.3.3-beta.9"
+    "@primecms/field-group" "^0.3.3-beta.9"
+    "@primecms/field-number" "^0.3.3-beta.9"
+    "@primecms/field-select" "^0.3.3-beta.9"
+    "@primecms/field-slice" "^0.3.3-beta.9"
+    "@primecms/field-string" "^0.3.3-beta.9"
     apollo-server-express "2.4.0"
     class-validator "0.9.1"
     cors "2.8.5"
@@ -332,98 +333,98 @@
     typeorm-typedi-extensions "0.2.3"
     which-pm "^1.1.0"
 
-"@primecms/field-asset@^0.3.3-beta.6":
-  version "0.3.3-beta.6"
-  resolved "https://registry.yarnpkg.com/@primecms/field-asset/-/field-asset-0.3.3-beta.6.tgz#d64317945e053e09b1ac64cbe11edc3540c2df1d"
-  integrity sha512-mEXznunSqgL1TDX9qhJn8cMWWKzdxDmJJVaJ7f5S4oiU/DCNxYC8vvZvuqddLwJIGsesl3Hgi2RXfM8VG+ptLQ==
+"@primecms/field-asset@^0.3.3-beta.9":
+  version "0.3.3-beta.9"
+  resolved "https://registry.yarnpkg.com/@primecms/field-asset/-/field-asset-0.3.3-beta.9.tgz#6bd6d57d426d8e7cce5fc42eb581e9b21d0ca8bc"
+  integrity sha512-xioLXg5fCN2wj2/SCOtlylFAzJkS7/Nv0mfVlumRdU5kDWcJCwhvcWSY4OUZDQp65ulB4/dBiYcgPxtU3n/AQg==
   dependencies:
-    "@primecms/field" "^0.3.3-beta.6"
-    antd "3.13.6"
+    "@primecms/field" "^0.3.3-beta.9"
+    antd "3.16.1"
     graphql "^14.1.1"
     lodash "^4.17.11"
     react "^16.8.0-alpha.1"
     react-dom "^16.8.0-alpha.1"
     react-easy-crop "^1.6.0"
 
-"@primecms/field-boolean@^0.3.3-beta.6":
-  version "0.3.3-beta.6"
-  resolved "https://registry.yarnpkg.com/@primecms/field-boolean/-/field-boolean-0.3.3-beta.6.tgz#bf3c0b0007d2d0710aad3e484a7d07fbaad85b6f"
-  integrity sha512-4ngsw+yCTs7pYgSBcFQNBun52S+1IkLjFXIAz+ln70aktiazH8rmKQhcHBYC3VCqNcHtOq1qUBRqdnBXKdrNpw==
+"@primecms/field-boolean@^0.3.3-beta.9":
+  version "0.3.3-beta.9"
+  resolved "https://registry.yarnpkg.com/@primecms/field-boolean/-/field-boolean-0.3.3-beta.9.tgz#887d46fc9b9da6af4faa9e60a15c7e4d5c4d76d7"
+  integrity sha512-smpo4/5FDAqmnnRBKd0ABg3ooCQfJYU+rHgcxx1VvANnnltJSuWLlW+S7dbDI9jBFI6ZElpQKWV8lrGYrQVHMw==
   dependencies:
-    "@primecms/field" "^0.3.3-beta.6"
-    antd "3.13.6"
+    "@primecms/field" "^0.3.3-beta.9"
+    antd "3.16.1"
     graphql "^14.1.1"
     lodash "^4.17.11"
     react "^16.8.0-alpha.1"
     react-dom "^16.8.0-alpha.1"
 
-"@primecms/field-datetime@^0.3.3-beta.6":
-  version "0.3.3-beta.6"
-  resolved "https://registry.yarnpkg.com/@primecms/field-datetime/-/field-datetime-0.3.3-beta.6.tgz#811267380d584a90eb46f5b06d9f9571e34a2b85"
-  integrity sha512-Bqxa0UDkCBj3TVUr9lCK2d/jIsM/DE19TrTFf2m262Ke7uVH8tlkIe2raCcieJ4tDVNrIYkD34uIUtKGbPTz4g==
+"@primecms/field-datetime@^0.3.3-beta.9":
+  version "0.3.3-beta.9"
+  resolved "https://registry.yarnpkg.com/@primecms/field-datetime/-/field-datetime-0.3.3-beta.9.tgz#75cfa07c5a766a7cb07a92de3eb762165daf9d84"
+  integrity sha512-lIQ19hUd0csT/7BIAJGkzDTJFdZocT6hfwtkmIFx9OkIw9ULQ/YgdEGXzyY8dghbNurFgaksYSRGYOyJCVV94g==
   dependencies:
-    "@primecms/field" "^0.3.3-beta.6"
-    antd "3.13.6"
+    "@primecms/field" "^0.3.3-beta.9"
+    antd "3.16.1"
     graphql "^14.1.1"
     graphql-iso-date "^3.6.1"
     react "^16.8.0-alpha.1"
     react-dom "^16.8.0-alpha.1"
 
-"@primecms/field-document@^0.3.3-beta.6":
-  version "0.3.3-beta.6"
-  resolved "https://registry.yarnpkg.com/@primecms/field-document/-/field-document-0.3.3-beta.6.tgz#7a4c843368924488065940214630ce392b142ff7"
-  integrity sha512-1OBztQLYDAaYCxyN3tGtMT0iINCxRUpP0wEdW7CXeRHywqhOb8qpF+ZL6336P2fah0Skuww7eibrQ4SbRHRBkg==
+"@primecms/field-document@^0.3.3-beta.9":
+  version "0.3.3-beta.9"
+  resolved "https://registry.yarnpkg.com/@primecms/field-document/-/field-document-0.3.3-beta.9.tgz#2eaa6ba4b88a888b419031214fb6e3121798d096"
+  integrity sha512-4uv+3D0eHQ3rYV1hr8h9xsKE5jAIGNnq0ZABpm681ZgiFsv9sR19Ia946rF2RibXiF/cmDNp4qwsTRfbq5l+sg==
   dependencies:
-    "@primecms/field" "^0.3.3-beta.6"
-    antd "3.13.6"
+    "@primecms/field" "^0.3.3-beta.9"
+    antd "3.16.1"
     graphql "^14.1.1"
     react "^16.8.0-alpha.1"
     react-dom "^16.8.0-alpha.1"
 
-"@primecms/field-group@^0.3.3-beta.6":
-  version "0.3.3-beta.6"
-  resolved "https://registry.yarnpkg.com/@primecms/field-group/-/field-group-0.3.3-beta.6.tgz#f1a6540134a71a873c41aa540b672d7cedb124c1"
-  integrity sha512-JUHulM7nzujCdi8D2MpT+LbE7beA+NWsfB465a0qXBEo++p3+wJsqapsTzR8z5Hf5cjN2l0pWNWDM/5mFGnd9Q==
+"@primecms/field-group@^0.3.3-beta.9":
+  version "0.3.3-beta.9"
+  resolved "https://registry.yarnpkg.com/@primecms/field-group/-/field-group-0.3.3-beta.9.tgz#6e5ef9111e0778bcfc834d703090b2797e0d2b77"
+  integrity sha512-ArggDmb7gtgDyp0CVx1zgidkyGR25lMiMMHuJtviD2GcUNIuOXKCuR2t4OUwkaNgCoaejHQg35MHDGs5yaSWmA==
   dependencies:
-    "@primecms/field" "^0.3.3-beta.6"
-    antd "3.13.6"
+    "@primecms/field" "^0.3.3-beta.9"
+    antd "3.16.1"
     graphql "^14.1.1"
     lodash "^4.17.11"
     react "^16.8.0-alpha.1"
     react-dom "^16.8.0-alpha.1"
 
-"@primecms/field-number@^0.3.3-beta.6":
-  version "0.3.3-beta.6"
-  resolved "https://registry.yarnpkg.com/@primecms/field-number/-/field-number-0.3.3-beta.6.tgz#a7593613ae055bfc6e2cb99b63af706805d4dac8"
-  integrity sha512-D/TXEdnuHyuZJIycK304gMRsenAu0hfTVvluXwGg3X27QhpF25BFXdZ12XisU/pVTmeLUZe/ckK9ZDB5KcGc2Q==
+"@primecms/field-number@^0.3.3-beta.9":
+  version "0.3.3-beta.9"
+  resolved "https://registry.yarnpkg.com/@primecms/field-number/-/field-number-0.3.3-beta.9.tgz#04f55359fd6063094ecc32acdaac804b294c0702"
+  integrity sha512-AlwttYPmiMMFufREABBnzHSgJgQu8Yqhx824rRIPOir3k95j+OFg4lVMG1+7vIXq6rgYYasMlGMXjsQ0CUb7+Q==
   dependencies:
-    "@primecms/field" "^0.3.3-beta.6"
-    antd "3.13.6"
+    "@primecms/field" "^0.3.3-beta.9"
+    antd "3.16.1"
     apollo-server-core "^2.3.1"
     graphql "^14.1.1"
     lodash "^4.17.11"
     react "^16.8.0-alpha.1"
     react-dom "^16.8.0-alpha.1"
 
-"@primecms/field-select@^0.3.3-beta.6":
-  version "0.3.3-beta.6"
-  resolved "https://registry.yarnpkg.com/@primecms/field-select/-/field-select-0.3.3-beta.6.tgz#6034711b94a72cf6831344eeeb6e998843a1e3b5"
-  integrity sha512-NCaVOItJlVV++Tl0HtB1Cl6i61HReKpg75wjmKi68sYIbe0pAYU/kvCubyBL95+O3Wsso4Im1zHqAyAn5glLsQ==
+"@primecms/field-select@^0.3.3-beta.9":
+  version "0.3.3-beta.9"
+  resolved "https://registry.yarnpkg.com/@primecms/field-select/-/field-select-0.3.3-beta.9.tgz#6f18f057d952682b0675ca21d471ad494a1425a4"
+  integrity sha512-11VFkB1Y0bxMTazFFRUJ9BLag1FAct8e4txkZ+kcL4F8QFoJOgPPFy6rmYQYWnnGQdYRB0N9Exlns7jRwkyESA==
   dependencies:
-    "@primecms/field" "^0.3.3-beta.6"
-    antd "3.13.6"
+    "@primecms/field" "^0.3.3-beta.9"
+    antd "3.16.1"
     graphql "^14.1.1"
     lodash "^4.17.11"
     react "^16.8.0-alpha.1"
     react-dom "^16.8.0-alpha.1"
 
-"@primecms/field-slice@^0.3.3-beta.6":
-  version "0.3.3-beta.6"
-  resolved "https://registry.yarnpkg.com/@primecms/field-slice/-/field-slice-0.3.3-beta.6.tgz#71f1838617bfe0533e49b42f173f8d368485a280"
-  integrity sha512-yHzWTOUBeDEaAPFhi5OGus4hDO2jO60jHKrgjI3FhSO/Q7dmIe0+gi6MuoC/ELrHqjaU4eI6Bh4OMx6WRykgfw==
+"@primecms/field-slice@^0.3.3-beta.9":
+  version "0.3.3-beta.9"
+  resolved "https://registry.yarnpkg.com/@primecms/field-slice/-/field-slice-0.3.3-beta.9.tgz#f9e1b84ea2adac3ab063e7d068b5d72e4d8900c8"
+  integrity sha512-WEAKE4hl4OOSf+0OFprqdc1IoIltXEEoQHcLyxW7Ljs67KEoCG6G2zQNi/wSdzvxy/IqEaJwyBFcNfML9lQMzQ==
   dependencies:
-    "@primecms/field" "^0.3.3-beta.6"
-    antd "3.13.6"
+    "@primecms/field" "^0.3.3-beta.9"
+    antd "3.16.1"
     graphql "^14.1.1"
     graphql-type-json "^0.2.1"
     graphql-union-input-type "0.4.0"
@@ -431,27 +432,27 @@
     react "^16.8.0-alpha.1"
     react-dom "^16.8.0-alpha.1"
 
-"@primecms/field-string@^0.3.3-beta.8":
-  version "0.3.3-beta.8"
-  resolved "https://registry.yarnpkg.com/@primecms/field-string/-/field-string-0.3.3-beta.8.tgz#2143323d15701c4ec129d576d984d917aa71bef5"
-  integrity sha512-DOItY1OGmEq1hMzdmDKw4edn5nprzJv+bnhgr9+KNYafHW66CWbAUvUw9SYpLiLFdNzqXvi24HGH1h/X8zZwDw==
+"@primecms/field-string@^0.3.3-beta.9":
+  version "0.3.3-beta.9"
+  resolved "https://registry.yarnpkg.com/@primecms/field-string/-/field-string-0.3.3-beta.9.tgz#a4246e4541481b2c08b80e4f8b3acfb781cac952"
+  integrity sha512-M9dme5JnxyTukE5TDlqpL8znNoBhFcxIrrRBhIppgwQ5QRCE9kPKZ/sA6RF1Kr1vh/Budv7tKpSLqHNQLlm1zg==
   dependencies:
-    "@primecms/field" "^0.3.3-beta.6"
-    antd "3.13.6"
+    "@primecms/field" "^0.3.3-beta.9"
+    antd "3.16.1"
     apollo-server-core "^2.3.1"
-    braft-editor "2.1.34"
+    braft-editor "2.2.9"
     draft-js "^0.10.5"
     graphql "^14.1.1"
     markdown-draft-js "1.3.0"
     react "^16.8.0-alpha.1"
     react-dom "^16.8.0-alpha.1"
 
-"@primecms/field@^0.3.3-beta.6":
-  version "0.3.3-beta.6"
-  resolved "https://registry.yarnpkg.com/@primecms/field/-/field-0.3.3-beta.6.tgz#dafb631b45646d094f0ddbacf3cec19d33e9ecf9"
-  integrity sha512-DOyttgtpkElR8D8nDqedrnjfZVNEKJS/DI/CvtQbQjxclk8MMb3+UCz4t1+7EqSq7tTF0p6Gc0jwLrxEr954lQ==
+"@primecms/field@^0.3.3-beta.9":
+  version "0.3.3-beta.9"
+  resolved "https://registry.yarnpkg.com/@primecms/field/-/field-0.3.3-beta.9.tgz#f2ded281fffaddee85b770c4000292f5e2fba4cb"
+  integrity sha512-YizMIyja7Zl8zuodcrfLzRzAOF+ut0dkRBgtbXlgM/oRAgYusKOJ7ohe8fKGTTSjb0CXbZX0RaEOjHJ8sBUW3g==
   dependencies:
-    antd "3.13.6"
+    antd "3.16.1"
     graphql "^14.1.1"
     lodash "^4.17.11"
     react "^16.8.0-alpha.1"
@@ -643,9 +644,29 @@
   version "8.10.39"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-8.10.39.tgz#e7e87ad00364dd7bc485c940926345b8ec1a26ca"
 
+"@types/prop-types@*":
+  version "15.7.0"
+  resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.0.tgz#4c48fed958d6dcf9487195a0ef6456d5f6e0163a"
+  integrity sha512-eItQyV43bj4rR3JPV0Skpl1SncRCdziTEK9/v8VwXmV6d/qOUO8/EuWeHBbCZcsfSHfzI5UyMJLCSXtxxznyZg==
+
 "@types/range-parser@*":
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/@types/range-parser/-/range-parser-1.2.3.tgz#7ee330ba7caafb98090bece86a5ee44115904c2c"
+
+"@types/react-slick@^0.23.3":
+  version "0.23.3"
+  resolved "https://registry.yarnpkg.com/@types/react-slick/-/react-slick-0.23.3.tgz#c9d14323a75f54f46a652fb745fe553aad091ce0"
+  integrity sha512-B6wU5ynINOolrByhoeJ448qZPjCFPcuhyQI5sjihjG8gQJuoTH6a4YQhuDm4umvbRVielJQANhptc8hmxA85IA==
+  dependencies:
+    "@types/react" "*"
+
+"@types/react@*":
+  version "16.8.13"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.8.13.tgz#a82b15aad9ab91c40edca0d6889b7745ae24f053"
+  integrity sha512-otJ4ntMuHGrvm67CdDJMAls4WqotmAmW0g3HmWi9LCjSWXrxoXY/nHXrtmMfvPEEmGFNm6NdgMsJmnfH820Qaw==
+  dependencies:
+    "@types/prop-types" "*"
+    csstype "^2.2.0"
 
 "@types/semver@^5.5.0":
   version "5.5.0"
@@ -756,16 +777,18 @@ ant-design-palettes@^1.1.3:
   dependencies:
     tinycolor2 "^1.4.1"
 
-antd@3.13.6:
-  version "3.13.6"
-  resolved "https://registry.yarnpkg.com/antd/-/antd-3.13.6.tgz#fe49136416e5e49d80cca95bb2ec2676572afd95"
-  integrity sha512-V98EecoaKhHAxulhj07Uy9K4Hxzi+JkmdgYtimZIlaVnAGG3rIfIVgKVkWRK8uHTvvUZJtRIB621BNkhuHW1wQ==
+antd@3.16.1:
+  version "3.16.1"
+  resolved "https://registry.yarnpkg.com/antd/-/antd-3.16.1.tgz#1d253931fc33e960f22025bef2d5c1548116ec6c"
+  integrity sha512-dtWLOvBm04/0Rkk8t/83DG8i3l+QRIxqDdPJyelrZV4dOiczNMJ/wEjdAq/DhTGVx3fUI5JolpmSUZLNJCNsWg==
   dependencies:
-    "@ant-design/icons" "~1.1.16"
+    "@ant-design/icons" "~1.2.0"
     "@ant-design/icons-react" "~1.1.2"
+    "@types/react-slick" "^0.23.3"
     array-tree-filter "^2.1.0"
     babel-runtime "6.x"
     classnames "~2.2.6"
+    copy-to-clipboard "^3.0.8"
     create-react-class "^15.6.3"
     create-react-context "0.2.2"
     css-animation "^1.5.0"
@@ -777,22 +800,22 @@ antd@3.13.6:
     prop-types "^15.6.2"
     raf "^3.4.0"
     rc-animate "^2.5.4"
-    rc-calendar "~9.10.3"
+    rc-calendar "~9.12.1"
     rc-cascader "~0.17.0"
     rc-checkbox "~2.1.5"
-    rc-collapse "~1.10.2"
+    rc-collapse "~1.11.1"
     rc-dialog "~7.3.0"
     rc-drawer "~1.7.6"
     rc-dropdown "~2.4.1"
     rc-editor-mention "^1.1.7"
     rc-form "^2.4.0"
-    rc-input-number "~4.3.7"
+    rc-input-number "~4.4.0"
     rc-menu "~7.4.12"
     rc-notification "~3.3.0"
     rc-pagination "~1.17.7"
     rc-progress "~2.3.0"
     rc-rate "~2.5.0"
-    rc-select "^8.6.7"
+    rc-select "~9.0.0"
     rc-slider "~8.6.5"
     rc-steps "~3.3.0"
     rc-switch "~1.9.0"
@@ -800,8 +823,8 @@ antd@3.13.6:
     rc-tabs "~9.6.0"
     rc-time-picker "~3.6.1"
     rc-tooltip "~3.7.3"
-    rc-tree "~1.14.6"
-    rc-tree-select "~2.5.0"
+    rc-tree "~1.15.2"
+    rc-tree-select "~2.6.0"
     rc-trigger "^2.6.2"
     rc-upload "~2.6.0"
     rc-util "^4.5.1"
@@ -1154,34 +1177,38 @@ brace-expansion@^1.1.7:
     balanced-match "^1.0.0"
     concat-map "0.0.1"
 
-braft-convert@^2.1.4:
+braft-convert@^2.1.10:
   version "2.1.12"
   resolved "https://registry.yarnpkg.com/braft-convert/-/braft-convert-2.1.12.tgz#dc331722feb5fe3fc2392d44db0c02922c19c6b2"
+  integrity sha512-mGqlVfpUIW3HHFmYmTdV7QRI1e2bpMtvHGgIm5/sb0h4alX+kWHgIZ/vZHCHZAxPEp8bbL73+8rVjyp3NZBFtg==
   dependencies:
     draft-convert "^2.0.0"
     draft-js "^0.10.3"
 
-braft-editor@2.1.34:
-  version "2.1.34"
-  resolved "https://registry.yarnpkg.com/braft-editor/-/braft-editor-2.1.34.tgz#3c90cfb146b77c73897d40645f2170a7b2738f7a"
+braft-editor@2.2.9:
+  version "2.2.9"
+  resolved "https://registry.yarnpkg.com/braft-editor/-/braft-editor-2.2.9.tgz#8990b6b638a69daebfb57e3f1f8e057166abc5be"
+  integrity sha512-F1mb9luLXfJ6Lhw7jLT+DNE9lc2qAb4fzNu+x5t2gbNKMzdmLrE99aNsqbDIGYqP4AGamgbXIiLYF7Md1+PtoQ==
   dependencies:
     "@babel/runtime" "^7.0.0"
-    braft-convert "^2.1.4"
-    braft-finder "^0.0.14"
-    braft-utils "^3.0.6"
+    braft-convert "^2.1.10"
+    braft-finder "^0.0.18"
+    braft-utils "^3.0.8"
     draft-convert "^2.0.0"
     draft-js "^0.10.3"
     draft-js-multidecorators "^1.0.0"
     draftjs-utils "^0.9.4"
     immutable "~3.7.4"
 
-braft-finder@^0.0.14:
-  version "0.0.14"
-  resolved "https://registry.yarnpkg.com/braft-finder/-/braft-finder-0.0.14.tgz#f5a65548a00dbe3193be58a90fffe5264f0a1184"
+braft-finder@^0.0.18:
+  version "0.0.18"
+  resolved "https://registry.yarnpkg.com/braft-finder/-/braft-finder-0.0.18.tgz#5f43659b61290081fb2920cc3ce1f62e31e9da57"
+  integrity sha512-XtEyVywEfHDzRjAV5HOiqKFva6vEm0Rez+QHgq+EbqXpAqxuHQTci2s3LX2u7G3UicNYpDsVY/UV3nleF2VYyw==
 
-braft-utils@^3.0.6:
-  version "3.0.9"
-  resolved "https://registry.yarnpkg.com/braft-utils/-/braft-utils-3.0.9.tgz#b0e28d84741921086a85b0fb07c6df2df5ae2878"
+braft-utils@^3.0.8:
+  version "3.0.11"
+  resolved "https://registry.yarnpkg.com/braft-utils/-/braft-utils-3.0.11.tgz#8a977f47b99dde09473363b90c3fe587103f3abe"
+  integrity sha512-bCtI+vSDCi8NyHeyhmHnKeRSIg00jI/LbKcMhxJnKclC2g6Aeo+jh42ol2gks61edKhd/s+fVx5M0NJXEGD9vA==
 
 buffer-equal-constant-time@1.0.1:
   version "1.0.1"
@@ -1491,6 +1518,13 @@ cookie@0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.3.1.tgz#e7e0a1f9ef43b4c8ba925c5c5a96e806d16873bb"
 
+copy-to-clipboard@^3.0.8:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/copy-to-clipboard/-/copy-to-clipboard-3.1.0.tgz#0a28141899e6bd217b9dc13fd1689b3b38820b44"
+  integrity sha512-+RNyDq266tv5aGhfRsL6lxgj8Y6sCvTrVJnFUVvuxuqkcSMaLISt1wd4JkdQSphbcLTIQ9kEpTULNnoCXAFdng==
+  dependencies:
+    toggle-selection "^1.0.6"
+
 core-js@3.0.0-beta.3:
   version "3.0.0-beta.3"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.0.0-beta.3.tgz#b0f22009972b8c6c04550ebf38513ca4b3cc9559"
@@ -1586,6 +1620,11 @@ css-animation@1.x, css-animation@^1.3.2, css-animation@^1.5.0:
   dependencies:
     babel-runtime "6.x"
     component-classes "^1.2.5"
+
+csstype@^2.2.0:
+  version "2.6.3"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.3.tgz#b701e5968245bf9b08d54ac83d00b624e622a9fa"
+  integrity sha512-rINUZXOkcBmoHWEyu7JdHu5JMzkGRoMX4ov9830WNgxf5UYxcBUO0QTKAqeJ5EZfSdlrcJYkC8WwfVW7JYi4yg==
 
 csstype@^2.5.2:
   version "2.6.2"
@@ -1730,7 +1769,7 @@ dom-matches@>=1.0.1:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/dom-matches/-/dom-matches-2.0.0.tgz#d2728b416a87533980eb089b848d253cf23a758c"
 
-dom-scroll-into-view@1.x, dom-scroll-into-view@^1.2.0:
+dom-scroll-into-view@1.x, dom-scroll-into-view@^1.2.0, dom-scroll-into-view@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/dom-scroll-into-view/-/dom-scroll-into-view-1.2.1.tgz#e8f36732dd089b0201a88d7815dc3f88e6d66c7e"
 
@@ -2702,10 +2741,6 @@ is-my-json-valid@^2.12.4:
     is-my-ip-valid "^1.0.0"
     jsonpointer "^4.0.0"
     xtend "^4.0.0"
-
-is-negative-zero@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/is-negative-zero/-/is-negative-zero-2.0.0.tgz#9553b121b0fac28869da9ed459e20c7543788461"
 
 is-property@^1.0.0, is-property@^1.0.2:
   version "1.0.2"
@@ -3963,9 +3998,10 @@ rc-animate@^3.0.0-rc.1, rc-animate@^3.0.0-rc.4, rc-animate@^3.0.0-rc.5:
     rc-util "^4.5.0"
     react-lifecycles-compat "^3.0.4"
 
-rc-calendar@~9.10.3:
-  version "9.10.8"
-  resolved "https://registry.yarnpkg.com/rc-calendar/-/rc-calendar-9.10.8.tgz#cea23f9083daaf8126c18e6c9312b4482b1dfcc8"
+rc-calendar@~9.12.1:
+  version "9.12.4"
+  resolved "https://registry.yarnpkg.com/rc-calendar/-/rc-calendar-9.12.4.tgz#68ee3a857b5341d780d9473541926cfe0b449154"
+  integrity sha512-AByRVQKcZcxciQDGUFWW4s0mQgb4nS1FMWv0pa5LwER7JP0CFpm1ql2gMPt+2fZ7BZCAv5IRgfmpReRef8e5pw==
   dependencies:
     babel-runtime "6.x"
     classnames "2.x"
@@ -3996,9 +4032,10 @@ rc-checkbox@~2.1.5:
     prop-types "15.x"
     rc-util "^4.0.4"
 
-rc-collapse@~1.10.2:
-  version "1.10.3"
-  resolved "https://registry.yarnpkg.com/rc-collapse/-/rc-collapse-1.10.3.tgz#a223198b465c8badfa9c0bdf61d6294bdf382f66"
+rc-collapse@~1.11.1:
+  version "1.11.1"
+  resolved "https://registry.yarnpkg.com/rc-collapse/-/rc-collapse-1.11.1.tgz#4aa0977adbf5229d7db58205646b13905add72ad"
+  integrity sha512-9HA8f7aWE0yabnzfE2v/7IyMb6dTmj052A9cyEMB0aT1sdLESpetMAzT3FkLcPT5fl7YNRkyVZ3zwkC5qMmzmA==
   dependencies:
     classnames "2.x"
     css-animation "1.x"
@@ -4079,13 +4116,13 @@ rc-hammerjs@~0.6.0:
     hammerjs "^2.0.8"
     prop-types "^15.5.9"
 
-rc-input-number@~4.3.7:
-  version "4.3.9"
-  resolved "https://registry.yarnpkg.com/rc-input-number/-/rc-input-number-4.3.9.tgz#35994556ebda84b7e6b1fb479784844b6b4a738a"
+rc-input-number@~4.4.0:
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/rc-input-number/-/rc-input-number-4.4.1.tgz#1636cf281cde8d78ea4c8b9ffcffd77b80350675"
+  integrity sha512-vgMjTNzBwgK6JkGVXfoHtYziTn4aFarYaHCYEwlJpDkLDvBxwcSlfXZ4ZGqS4MpouDKO0B1W1oPiXcJbJWG3zg==
   dependencies:
     babel-runtime "6.x"
     classnames "^2.2.0"
-    is-negative-zero "^2.0.0"
     prop-types "^15.5.7"
     rc-util "^4.5.1"
     rmc-feedback "^2.0.0"
@@ -4140,9 +4177,10 @@ rc-rate@~2.5.0:
     rc-util "^4.3.0"
     react-lifecycles-compat "^3.0.4"
 
-rc-select@^8.6.7:
-  version "8.8.3"
-  resolved "https://registry.yarnpkg.com/rc-select/-/rc-select-8.8.3.tgz#87ec0f3e119af1caac21a9489110669eef30c662"
+rc-select@~9.0.0:
+  version "9.0.2"
+  resolved "https://registry.yarnpkg.com/rc-select/-/rc-select-9.0.2.tgz#ce0d297db5f8a5c7e8bbc3fc24d9ed5ba648012c"
+  integrity sha512-lwFz/aINmbznQmKvq/jFipc922h+RhA+iKCicxAglTqC4qmXg2REKWzviT5Tk0kqVe4mHcfNX8PyvMEHSmkaLA==
   dependencies:
     babel-runtime "^6.23.0"
     classnames "2.x"
@@ -4232,24 +4270,27 @@ rc-tooltip@^3.7.0, rc-tooltip@~3.7.3:
     prop-types "^15.5.8"
     rc-trigger "^2.2.2"
 
-rc-tree-select@~2.5.0:
-  version "2.5.3"
-  resolved "https://registry.yarnpkg.com/rc-tree-select/-/rc-tree-select-2.5.3.tgz#17bce4851c24e746bf9e2211c509be1aaccdcd54"
+rc-tree-select@~2.6.0:
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/rc-tree-select/-/rc-tree-select-2.6.2.tgz#783bafbf3abd0fc645a07697563038eda6302f29"
+  integrity sha512-QKWdKKmUfLaG4kv47NtpMQibs0WaS9EQFntiQy4k9Pp2ExtD5m/3YIv33u8LKZ/KWkz2LQBkLN9c3MVX2pWNOw==
   dependencies:
     classnames "^2.2.1"
+    dom-scroll-into-view "^1.2.1"
     prop-types "^15.5.8"
     raf "^3.4.0"
     rc-animate "^3.0.0-rc.4"
-    rc-tree "~1.14.3"
+    rc-tree "~1.15.0"
     rc-trigger "^3.0.0-rc.2"
     rc-util "^4.5.0"
     react-lifecycles-compat "^3.0.4"
     shallowequal "^1.0.2"
     warning "^4.0.1"
 
-rc-tree@~1.14.3, rc-tree@~1.14.6:
-  version "1.14.9"
-  resolved "https://registry.yarnpkg.com/rc-tree/-/rc-tree-1.14.9.tgz#a26634b401123471e187273dd2fd440de6b85958"
+rc-tree@~1.15.0, rc-tree@~1.15.2:
+  version "1.15.2"
+  resolved "https://registry.yarnpkg.com/rc-tree/-/rc-tree-1.15.2.tgz#a0d6f20fa2bdbe51d829d5ceea74a407b04bfea9"
+  integrity sha512-VPXLA/GdV6U9N8evpl4rmjRsBkw5BoweqWjcVBVwYGzBtonNIFpdc+bnb7TDmd6S3mKOM7mXPbiSr2GKYdj4hA==
   dependencies:
     babel-runtime "^6.23.0"
     classnames "2.x"
@@ -5074,6 +5115,11 @@ title-case@^2.1.0:
 to-fast-properties@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/to-fast-properties/-/to-fast-properties-2.0.0.tgz#dc5e698cbd079265bc73e0377681a4e4e83f616e"
+
+toggle-selection@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/toggle-selection/-/toggle-selection-1.0.6.tgz#6e45b1263f2017fa0acc7d89d78b15b8bf77da32"
+  integrity sha1-bkWxJj8gF/oKzH2J14sVuL932jI=
 
 toidentifier@1.0.0:
   version "1.0.0"
