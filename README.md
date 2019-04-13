@@ -99,3 +99,14 @@ See the [feature comparison](https://docs.primecms.app/#/features) to Prismic, C
 </table>
 
 [More screenshots available here](https://imgur.com/gallery/NVDH81P)
+
+## Docker
+
+```sh
+git tag 0.3.4-beta.0
+git push --tags
+docker build -t primecms .
+docker login
+docker tag primecms primecms/primecms:0.3.4-beta.0
+docker push primecms/primecms:0.3.4-beta.0
+```

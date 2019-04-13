@@ -11,5 +11,7 @@ ENTRYPOINT yarn start
 EXPOSE 4000
 
 ENV PORT=4000
-ENV DATABASE_URL=postgresql://postgres:password@db:5432/postgres
-ENV SESSION_SECRET=keyboard-cat-dart
+ARG DATABASE_URL=postgresql://postgres:password@db:5432/postgres
+ARG SESSION_SECRET=keyboard-cat-dart
+ARG SENTRY_DSN=
+ARG NEW_RELIC_LICENSE_KEY=
