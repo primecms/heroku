@@ -537,10 +537,10 @@
     lodash "^4.17.11"
     react "^16.8.0-alpha.1"
 
-"@primecms/ui@0.3.4-beta.0":
-  version "0.3.4-beta.0"
-  resolved "https://registry.yarnpkg.com/@primecms/ui/-/ui-0.3.4-beta.0.tgz#350fabfeeabf1d48b11e97771457a4164de591cb"
-  integrity sha512-6VQquJ57FXsoPv0vGDFXOTB4XTegHa/MExAZfPwVRkPxqbKC7gXu2TOA+xY00YhFupOuLEu2A8kJImWVwED2fA==
+"@primecms/ui@0.3.4-beta.1":
+  version "0.3.4-beta.1"
+  resolved "https://registry.yarnpkg.com/@primecms/ui/-/ui-0.3.4-beta.1.tgz#254cb47af6ef0bc343837c868a81b3f89ef6ebbb"
+  integrity sha512-I1M50uBAGQneZZRtaT2InTwulNwVtDtZfu1tf9IDQv3tmLXE9o9y7YkiswDeI2opMnkSGwq1smuzw0FH2o1HSw==
 
 "@protobufjs/aspromise@^1.1.1", "@protobufjs/aspromise@^1.1.2":
   version "1.1.2"
