@@ -21,6 +21,6 @@
     "@primecms/core": "0.3.4-beta.3",
     "@primecms/ui": "0.3.4-beta.3",
     "@sentry/node": "^5.0.7",
-    "newrelic": "^6.0.0"
+    "newrelic": "^10.0.0"
   }
 }
