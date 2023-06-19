@@ -20,7 +20,7 @@
   "dependencies": {
     "@primecms/core": "0.3.4-beta.3",
     "@primecms/ui": "0.3.4-beta.3",
-    "@sentry/node": "^5.0.7",
+    "@sentry/node": "^7.0.0",
     "newrelic": "^6.0.0"
   }
 }
